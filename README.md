@@ -1,1 +1,8 @@
-# Spotify Track Popularity Prediction
+# Spotify Track Popularity Prediction using Machine Learning
+
+Until 2017, the music industry was on USD 17.3 billion although the market is growing more specifically after lockdown. As this industry is growing the streaming and media business now a days would like to predict how much an album will be popular even before it is released. As cost of failure for a new product is high where research and product development is involved. The music streaming platforms are having issue for diversifying their returns and that is taking toll on the innovation which can value their proposition. Although, having an ironic databases their innovation possibilities increase for seeking new product by predicting the popularity of a song
+even before release which can help music labels and company which will create new source of income for the streaming company. This research projects aims to solve the following problem statement: _Can we predict a song’s popularity based on the features?_
+
+The dataset was published by Spotify on Kaggle with the dimension of 19 columns and around 129172 sound track record from year 1921 to 2021. Further Data was transformed to get clean and suitable data which can be fed to regression models. The model applied over the given dataset were K-neighbors Regressor, Linear Regression and XGBoost. For linear regression, K- Fold cross validation was applied whereas in KNN, Ten-fold cross validation was applied to obtain best K value. The models were evaluated based on R-Sqaure, Adjusted R-Square, Mean Square Error, Root Mean Square Error & Mean Absolut Error where Linear Regression got better results.
+
+Dataset Link: https://www.kaggle.com/c/spotify-popularity-prediction/data
